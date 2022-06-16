@@ -1,0 +1,66 @@
+:root { 												/* using ci- as the prefix here, use your own prefix in your own files */ 
+	--ci-url: url("/icons/customicons.svg");		/* call your own icon file something unique */ 
+	--ci-size: 24px; 								/* could be var(--icon-size), or a specific value as it is here */ 
+ }
+
+/* row 1 */
+.ui-icon-invoices	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: 0 0; }
+.ui-icon-customers	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-1 * var(--ci-size)) 0; }
+.ui-icon-products	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-2 * var(--ci-size)) 0; }
+.ui-icon-countries	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-3 * var(--ci-size)) 0; }
+.ui-icon-shippers 	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-4 * var(--ci-size)) 0; }
+.ui-icon-storefront 	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-5 * var(--ci-size)) 0; }
+.ui-icon-fields		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-6 * var(--ci-size)) 0; }
+.ui-icon-tabs 		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-7 * var(--ci-size)) 0; }
+.ui-icon-editors 	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-8 * var(--ci-size)) 0; }
+.ui-icon-browses 	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-9 * var(--ci-size)) 0; }
+.ui-icon-api 		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-10 * var(--ci-size)) 0; }
+.ui-icon-nested 		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-11 * var(--ci-size)) 0; }
+.ui-icon-themerhome	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-12 * var(--ci-size)) 0; }
+.ui-icon-operations 	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-13 * var(--ci-size)) 0; }
+.ui-icon-demos     	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-14 * var(--ci-size)) 0; }
+.ui-icon-settings	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-15 * var(--ci-size)) 0; }
+
+/* row 2 */
+.ui-icon-watch   			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: 0                         calc(-1 * var(--ci-size)); }
+.ui-icon-themer				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-1 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-shipping			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-2 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-logout				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-3 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-shield				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-4 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-admin				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-5 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-flame				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-6 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-vehiclemaintenance	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-7 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-fuel				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-8 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-engine				      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-9 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-holdingsign		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-10 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-creditcards		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-11 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-creditcardcharge	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-12 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-computer			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-13 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-network			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-14 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+.ui-icon-graduate  	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-15 * var(--ci-size)) calc(-1 * var(--ci-size)); }
+
+/* row 3 */
+.ui-icon-books		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: 0                         calc(-2 * var(--ci-size)); }
+.ui-icon-arrowup	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-1 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-arrowdown	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-2 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-arrowleft	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-3 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-arrowright	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-4 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-key1		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-5 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-settings	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-6 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-home		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-7 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-calendar	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-8 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-report		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-9 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-firstaid	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-10 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-incident	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-11 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-ambulance	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-12 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-wrestling	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-13 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-idcard		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-14 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+.ui-icon-people  		      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-15 * var(--ci-size)) calc(-2 * var(--ci-size)); }
+
+/* row 4 */
+.ui-icon-money			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: 0                         calc(-3 * var(--ci-size)); }
+.ui-icon-cashregister	      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-1 * var(--ci-size)) calc(-3 * var(--ci-size)); }
+.ui-icon-billWF			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-2 * var(--ci-size)) calc(-3 * var(--ci-size)); }
+.ui-icon-brick			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-3 * var(--ci-size)) calc(-3 * var(--ci-size)); }
+.ui-icon-cctv			      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-4 * var(--ci-size)) calc(-3 * var(--ci-size)); }
+.ui-icon-verticalchart      { background-image:var(--ci-url) ; width: var(--ci-size); height:var(--ci-size);background-position: calc(-5 * var(--ci-size)) calc(-3 * var(--ci-size)); }

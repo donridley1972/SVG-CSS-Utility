@@ -1,0 +1,66 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{59573DB8-6029-4206-B533-F692F0114A73}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">Win32</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NetTalkSVGUtility</RootNamespace>
+    <AssemblyName>NetTalkSVGUtility</AssemblyName>
+    <OutputName>NetTalkSVGUtility</OutputName>
+    <CWOutputType>Exe</CWOutputType>
+    <DefineConstants>StringTheoryLinkMode=&gt;1%3bStringTheoryDllMode=&gt;0%3bMD5=&gt;0%3b_RASLinkMode_=&gt;1%3b_RASDllMode_=&gt;0%3bFM2=&gt;1%3b_ABCDllMode_=&gt;0%3b_ABCLinkMode_=&gt;1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <vid>full</vid>
+    <check_stack>True</check_stack>
+    <check_index>True</check_index>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <vid>off</vid>
+    <check_stack>False</check_stack>
+    <check_index>False</check_index>
+  </PropertyGroup>
+  <ItemGroup>
+    <Library Include="CLAFM3.lib" />
+    <Library Include="NetTalkSVGUtility.EXE.manifest" />
+    <Library Include="smalltik.ico" />
+    <FileDriver Include="DOS" />
+    <FileDriver Include="TOPSPEED" />
+    <Compile Include="NetTalkSVGUtility.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NetTalkSVGUtility002.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NetTalkSVGUtility003.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NetTalkSVGUtility004.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NetTalkSVGUtility005.clw">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NETTALKSVGUTILITY_BC.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <Compile Include="NetTalkSVGUtility_BC0.CLW">
+      <Generated>true</Generated>
+    </Compile>
+    <None Include="clafm3.Dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+    <None Include="zlibwapi.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generated>True</Generated>
+      <ProjectGenerated>True</ProjectGenerated>
+    </None>
+  </ItemGroup>
+  <Import Project="$(ClarionBinPath)\SoftVelocity.Build.Clarion.targets" />
+</Project>

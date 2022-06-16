@@ -1,0 +1,20 @@
+[UNNAMED]
++SessionDate= 6/16/2022
+crc32v2=2796941027
++CurrentKey=Record Order
+ENV File Path=
+OEM=0
+Record Order=Record Order
+PRO:PROJGUIDKEY=PRO:PROJGUIDKEY
+PRO:PROJDESCRIPTIONKEY=PRO:PROJDESCRIPTIONKEY
+Record Number=47R(2)~Rec No~C(0)@N_12@Y?Rec No:
+PRO:GUID=51L(2)~Pro:Guid~C(0)?Pro:Guid:
+PRO:DESCRIPTION=82L(2)~Pro:Description~C(0)?Pro:Description:
+PRO:INPUTFOLDER=79L(2)~Pro:Inputfolder~C(0)?Pro:Inputfolder:
+PRO:OUTPUTFOLDER=87L(2)~Pro:Outputfolder~C(0)?Pro:Outputfolder:
+Columns=5
+Column1=RECORD NUMBER
+Column2=PRO:GUID
+Column3=PRO:DESCRIPTION
+Column4=PRO:INPUTFOLDER
+Column5=PRO:OUTPUTFOLDER
