@@ -3,6 +3,6 @@ Assists in creating a CSS file that references an SVG Icon file.  Commonly used 
 
 <img src="https://github.com/donridley1972/SVG-CSS-Utility/blob/main/ScreenHunter%2008%20(01).png" width=600/>
 
-<img src="https://github.com/donridley1972/SVG-CSS-Utility/blob/main/ScreenHunter%2009.png" width=300/>
+<img src="https://github.com/donridley1972/SVG-CSS-Utility/blob/main/ScreenHunter%2009.png" width=200/>
 
-<img src="https://github.com/donridley1972/SVG-CSS-Utility/blob/main/ScreenHunter%2010.png" width=900/>
+<img src="https://github.com/donridley1972/SVG-CSS-Utility/blob/main/ScreenHunter%2010.png" width=500/>
